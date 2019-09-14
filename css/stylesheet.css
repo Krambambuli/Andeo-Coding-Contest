@@ -1,0 +1,148 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    background-color: #dfdfdf;
+}
+
+h1 {
+    color: white;
+}
+h3{
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 5%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 3px solid #dfdfdf;
+}
+li {
+    float: left;
+    border-right:3px solid #dfdfdf;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid #0D1F2D;
+}
+li a:hover:not(.active) {
+    background-color: #b3b3b3;
+}
+
+button {
+    background-color: #0D1F2D;
+    color: white;
+    border: 3px solid #28608a;
+    cursor: pointer;
+}
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+#content {
+    margin: auto;
+    width: 60%;
+    margin-top: 10px;
+}
+
+#titel {
+    text-align: center;
+    padding: 10px;
+    background-color: #0D1F2D;
+
+}
+
+.active {
+    background-color: #b3b3b3;;
+}
+
+.divSection {
+    overflow: auto;
+    background-color: white;
+    border: 3px solid #dfdfdf;
+}
+
+.divNumber {
+    width: 5%;
+    float: left;
+    text-align: center;
+}
+
+.divSentences {
+    width: 95%;
+    float: left;
+}
+
+.divAnswer{
+    border: 3px solid #dfdfdf;
+}
+
+.divFixed {
+    position: fixed;
+    width: 10%;
+    border: 3px solid red;
+    left: 9%;
+}
+
+#difficulty {
+    top: 160px;
+}
+
+#check {
+    top: 190px;
+}
+
+#language {
+    top: 220px;
+}
+
+#shuffle {
+    top: 250px;
+}
+
+.buttonUpDown {
+    width: 100%;
+    padding: 16px;
+    border: 10px solid #28608a;
+
+}
+
+.up {
+    transform: rotate(-135deg);
+    /*-webkit-transform: rotate(-135deg);*/
+}
+
+.down {
+    transform: rotate(45deg);
+    /*-webkit-transform: rotate(45deg);*/
+}
+
+/*
+Für editSentences
+*/
+
+
+
+
+/*
+colors
+white: #ffffff;
+grey: #dfdfdf;
+black: #000000;
+light-blue: #3c90ce;
+darker-blue: #3581B7;
+another darker-blue: #327AAD;
+dark-blue: #255B82;
+ */
