@@ -3,6 +3,8 @@ request.open("GET", "test.xml", false);
 request.send();
 var xmlDoc = request.responseXML;
 
+//navigation nd so erstelle
+
 function getXMLSentences() {
     var sentences = [];
     var x;
@@ -21,22 +23,6 @@ function getXMLSentences() {
         sentences.push(sameSentence);
     }
     return sentences;
-    /* xml umeprobiere züg
-    //ger
-    txt += x[1].childNodes[1].childNodes[0].nodeValue + "\<br\>";
-    //en
-    txt += x[1].childNodes[3].childNodes[0].nodeValue + "<br>";
-    //ger test 1
-    txt += x[3].childNodes[1].childNodes[0].nodeValue + "\<br\>";
-    //en test 1
-    txt += x[3].childNodes[3].childNodes[0].nodeValue + "<br>";
-    //ger test 2
-    txt += x[5].childNodes[1].childNodes[0].nodeValue + "\<br\>";
-    //en test 2
-    txt += x[5].childNodes[3].childNodes[0].nodeValue + "<br>";
-    //length x
-    txt += x.length;
-    */
 }
 
 function getXMLNodes() {
