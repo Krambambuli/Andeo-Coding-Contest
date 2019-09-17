@@ -39,6 +39,7 @@
 </div>
 -->
 <script>
+
     //ich machs jez so
     // sentences beinhaltet arrays namens sentence
     // wo alli in allne sprache de glich satz isch
@@ -69,7 +70,7 @@
     setHTML();
 
 
-    //noEX
+    //EX
     function setEventListener() {
         document.addEventListener("input", function (event) {
             if (event.target.id === "selectLanguage") {
@@ -82,12 +83,6 @@
                 location.reload();
             }
         }, false);
-        /*Window.addEventListener("keypress", function (event){
-            var keyCode = event.which;
-            if(keyCode == 13){
-                alert("Enter");
-            }
-        }, false);*/
     }
 
     /*
@@ -97,6 +92,7 @@
             location.reload();
 
         }*/
+
     //noEX
     function setHTML() {
         var divDifficulty = document.getElementById("difficulty");
@@ -130,6 +126,7 @@
     }
 
 
+    //ex
     function getDifficulty() {
         if (sessionStorage.getItem("difficulty") == undefined) {
             difficulty = 1;
@@ -399,6 +396,7 @@
 
     }
 
+    //EX
     function creatDiv(whichDiv) {
         //creat div
         var div = document.createElement("div");
