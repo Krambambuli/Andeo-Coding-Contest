@@ -53,6 +53,7 @@ function creatButton(id) {
     return button;
 }
 
+//wird für creatButton gebrucht
 function change(id) {
     switch (sessionStorage.getItem("button" + id)) {
         case "true":
@@ -80,3 +81,15 @@ function creatI(which) {
     }
     return i;
 }
+
+/*
+function creatNav(){
+    var divTitel = document.createElement("div");
+    divTitel.id = "titel";
+    var h1 = document.createElement("h1");
+    h1.innerHTML = "Andeo Coding Contest";
+
+
+}
+
+*/

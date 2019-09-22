@@ -92,7 +92,6 @@ i {
 .divFixed {
     position: fixed;
     width: 10%;
-    border: 3px solid red;
     left: 9%;
 }
 

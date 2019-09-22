@@ -366,14 +366,15 @@ function creatDiv(whichDiv) {
             //div.setAttribute("class", "divSection");
             break;
         case 1:
-            div.setAttribute("class", "divNumber");
+            div.className = "divNumber";
             break;
         case 2:
-            div.setAttribute("class", "divSentences");
+            div.className = "divSentences";
             break;
         case 3:
-            div.setAttribute("class", "divAnswer");
+            div.className = "divAnswer";
     }
 
     return div;
 }
+

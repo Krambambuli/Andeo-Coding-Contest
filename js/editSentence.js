@@ -71,6 +71,7 @@ if(button_3.value === "true"){
             textBoxSentence.setAttribute("type", "text");
             textBoxSentence.style.width = "99%";
             textBoxSentence.style.margin = "0 0 10px 0";
+            textBoxSentence.name = i + "-" + j;
             textBoxSentence.value = sentences[i][j];
             divSections[2].appendChild(textBoxSentence);
         }
